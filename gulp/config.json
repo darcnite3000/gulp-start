@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "name": "gulp-start",
+    "entry": "./app/app.js",
+    "build": "./public"
+  },
+  "styles": {
+    "name": "gulp-start",
+    "files": "./sass/*.scss",
+    "build": "./public/styles"
+  }
+}
