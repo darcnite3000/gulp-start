@@ -8,5 +8,9 @@
     "name": "gulp-start",
     "files": "./sass/*.scss",
     "build": "./public/styles"
+  },
+  "vendor": {
+    "folders": {},
+    "build": "./public/vendor"
   }
 }
