@@ -15,7 +15,7 @@ gulp.task('sass', function() {
     .pipe(autoprefixer())
     .pipe(sourcemaps.write('./',{
       includeContent:false,
-      sourceRoot: '/styles'
+      sourceRoot: config.sourceRoot
     }))
     .pipe(gulp.dest(config.build));
 });

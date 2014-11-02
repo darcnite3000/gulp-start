@@ -7,7 +7,8 @@
   "styles": {
     "name": "gulp-start",
     "files": "./sass/*.scss",
-    "build": "./public/styles"
+    "build": "./public/styles",
+    "sourceRoot": "/styles"
   },
   "vendor": {
     "folders": {},
