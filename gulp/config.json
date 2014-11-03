@@ -2,7 +2,9 @@
   "scripts": {
     "name": "gulp-start",
     "entry": "./app/app.js",
-    "build": "./public"
+    "build": "./public",
+    "angular": false,
+    "minify": true
   },
   "styles": {
     "name": "gulp-start",
