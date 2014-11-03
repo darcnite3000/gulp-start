@@ -1,3 +1,4 @@
+'use strict';
 var gulp = require('gulp');
 
-gulp.task('serve',['watch', 'server']);
+module.exports = gulp.task('serve',['watch', 'server']);
