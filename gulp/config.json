@@ -4,7 +4,12 @@
     "entry": "./app/app.js",
     "build": "./public",
     "angular": false,
-    "minify": true
+    "minify": true,
+    "templates":{
+      "name": "templates",
+      "src": ["./app/**/*.html"],
+      "dest":"./app"
+    }
   },
   "styles": {
     "name": "gulp-start",
