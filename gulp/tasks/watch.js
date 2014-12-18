@@ -7,4 +7,7 @@ module.exports = gulp.task('watch',['watchify','sass'], function() {
   livereload.listen();
   gulp.watch('public/**').on('change',livereload.changed);
   gulp.watch(config.styles.files, ['sass']);
+  if(config.scripts.angular){
+    gulp.watch(config.scripts.templates.src,['templates']);
+  }
 });
